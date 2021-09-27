@@ -26,7 +26,7 @@ const Main = () => {
         links a sitios externos
       </section>
     </main>
-  ;
+  );
 };
 
 export default Main;
