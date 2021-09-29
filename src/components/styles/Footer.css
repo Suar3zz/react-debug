@@ -1,16 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 .footerText {
   color: white;
   font-size: 12px;
   margin-top: 10px;
 }
 .logosCineAr img {
-  height: 40px;
-  margin: 40px;
-  padding: 40px;
-  border-right: rgba(128, 128, 128, 0.5) 1px solid;
-}
-#root > footer > div.logosCineAr > ul > li:nth-child(3) > a > img {
-  border-width: 0;
+  padding-right: 35px;
+  height: 35px;
+  margin: 35px;
 }
 
 .logosCineAr ul {
@@ -21,4 +19,22 @@
 .ultimosLogos ul {
   display: flex;
   justify-content: flex-end;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.footerText p {
+  color: white;
+  font-size: 12px;
+  margin: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.a-logosUlti img {
+  margin: 1rem;
+  height: 45px;
 }

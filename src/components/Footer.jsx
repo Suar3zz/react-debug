@@ -56,15 +56,16 @@ const PieDePagina = () => {
       <div className="logosCineAr">
         <ul>{transformarLogos}</ul>
       </div>
-      <div className="footerText">
-        <p>
-          Todos los derechos reservados 2003-2021. República Argentina. INCAA
-        </p>
-        <br />
-        <p>Lima 319; Código Postal: C1073AAG, CABA; República Argentina.</p>
-      </div>
-      <div className="ultimosLogos">
-        <ul>{transformarLogosUltimos}</ul>
+      <div className="footer">
+        <div className="footerText">
+          <p>
+            Todos los derechos reservados 2003-2021. República Argentina. INCAA
+          </p>
+          <p>Lima 319; Código Postal: C1073AAG, CABA; República Argentina.</p>
+        </div>
+        <div className="ultimosLogos">
+          <ul>{transformarLogosUltimos}</ul>
+        </div>
       </div>
     </footer>
   );
